@@ -1,0 +1,21 @@
+.container.ready {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    border-color: #eee #ddd #bbb;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 3px;
+}
+
+input {
+    margin: 10px 20px;
+}
+
+.search-box-container input {
+    padding: 5px 20px 5px 5px;
+  }
+  
+  .search-box-container:after {
+      content: "\f002";
+      font-family: FontAwesome;
+      margin-left: -25px;
+      margin-right: 25px;
+  }

@@ -1,0 +1,13 @@
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+<div class="container"
+  [class.ready]="!!user">
+
+  <div class="search-box-container">
+    <input type="text" [formControl]="findControl" placeholder="Search Users" style="margin-left: 570px;" />
+  </div>
+  
+  <app-user *ngIf="user"
+    [user]="user"></app-user>
+  <app-error *ngIf="error"></app-error>
+</div>

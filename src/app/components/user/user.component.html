@@ -1,0 +1,26 @@
+<div>
+  <a 
+    [href]="'https://github.com/'+user.login">
+      <img [src]="user.avatar_url+'&amp;s=80'" [alt]="user.name" style="margin-left:33px;"/>
+    </a>
+  <div>
+    <h1>{{user.name}}</h1>
+    <ul>
+      <li>
+        <a [href]="'https://github.com/'+user.login+'?tab=repositories'">
+        Repos     <strong>{{user.public_repos}}</strong>
+          </a>
+      </li>
+      <li>
+        <a [href]="'https://gist.github.com/'+user.login">
+          Followers     <strong>{{user.followers}}</strong>
+          </a>
+      </li>
+      <li>
+        <a [href]="'https://github.com/'+user.login+'/type'">
+          Type     <strong>{{user.type}}</strong>
+          </a>
+      </li>
+    </ul>
+  </div>
+</div>
