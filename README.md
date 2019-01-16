@@ -1,5 +1,6 @@
 # SearchGithubUsers
-This project searches githubusers and displays their information
+This project searches githubusers and displays their information and is built on Angular 5 version . 
+The latest code will be on stackblitz account 
 
 Below URL is the actual implementation follow that :
 
